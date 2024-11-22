@@ -529,6 +529,40 @@ footer{
     margin-top: 10px;
 }
 
+/*  DARK MODE STYLES -- */
+
+body.dark {
+    background-color: #eee;
+}
+body.dark {
+    background-color: #101020;
+}
+
+ .theme {
+     /* position: fixed;
+     right: 50%;
+     top: 50%; */
+     background: transparent;
+     border: none;
+     cursor: pointer;
+
+ }
+
+ .theme svg {
+     width: 40px;
+     height: 40px;
+ }
+
+ .theme svg {
+     stroke: #000;
+ }
+
+ .dark .theme svg {
+     stroke: #fff;
+     fill: yellow;
+     filter: drop-shadow(0 0 7px yellow);
+ }
+
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){

@@ -9,6 +9,25 @@ function myMenuFunction(){
     }
   }
 
+
+ const theme = document.querySelector(".theme");
+let localTheme = localStorage.getItem("theme");
+
+if (localTheme == "dark") {
+  document.body.classList.add("dark");
+}
+
+theme.addEventListener("click", () => {
+  localTheme = localStorage.getItem("theme");
+  if (localTheme == "dark") {
+    document.body.classList.remove("dark");
+    localStorage.setItem("theme", "light");
+  } else {
+    localStorage.setItem("theme", "dark");
+    document.body.classList.add("dark");
+  }
+});
+
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
 
