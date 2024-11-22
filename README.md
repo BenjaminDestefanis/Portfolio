@@ -1,17 +1,4 @@
-### Dependcias
-1.react-icons
-2.Material UI
+# PortFolio_Website
+Complete Portfolio Website with Bootstrap - HTML/CSS In this project, we are going to learn and build how to create a complete portfolio website with bootstrap using HTML and CSS. We will understand everything from scratch. 
 
-
-### Estructura del Proyecto
-1.Definicion de APP.CSS
-2.FIRST COMPONENT Header.jsx + Header.css
-3.Home directorry -> content Home.jsx + Home.css - Social.jsx + Social.css - Data.jsx
-4.ScrollDown.jsx
-5.About.jsx + About.css
-6.Info.jsx 
-7.Services.jsx + Services.css
-8.Qualification.jsx + Qualification.css
-9.Contact.jsx + Contact.css
-10.footer.jsx + footer.css
-11.scrollup
+## To execute this project just open index.html file in the browser.
