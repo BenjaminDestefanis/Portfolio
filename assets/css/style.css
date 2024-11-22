@@ -538,6 +538,13 @@ body.dark {
     background-color: #101020;
 }
 
+nav.dark {
+    background-color: #eee;
+}
+nav.dark {
+    background-color: #101020;
+}
+
  .theme {
      /* position: fixed;
      right: 50%;

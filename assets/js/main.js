@@ -9,22 +9,32 @@ function myMenuFunction(){
     }
   }
 
+  /* CHANGE DARK MODE */
 
- const theme = document.querySelector(".theme");
+/* const  htmlElement = document.documentElement;
+console.log(htmlElement) */
+const theme = document.querySelector(".theme");
+const navBar = document.querySelector("#header")
+
+
 let localTheme = localStorage.getItem("theme");
 
 if (localTheme == "dark") {
+  navBar.classList.add("dark");
   document.body.classList.add("dark");
+  /* document.documentElement.body.classList.add("dark");  */
 }
 
 theme.addEventListener("click", () => {
   localTheme = localStorage.getItem("theme");
   if (localTheme == "dark") {
+    navBar.classList.remove("dark");
     document.body.classList.remove("dark");
     localStorage.setItem("theme", "light");
   } else {
     localStorage.setItem("theme", "dark");
     document.body.classList.add("dark");
+    navBar.classList.add("dark");
   }
 });
 
